@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: ;
+      }
+      .main-container {
+        background-color: hsl(217, 54%, 11%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+      .img-container {
+        height: auto;
+        width: 400px;
+        border-radius: 5%;
+        background-color: hsl(216, 50%, 16%);
+        padding: 15px 15px;
+      }
+      .img-container > img {
+        height: 100%;
+        width: 100%;
+        border-radius: 5%;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .text-container {
+        height: auto;
+      }
+      .text-container > h3 {
+        padding-left: 20px;
+        padding-top: 20px;
+        font-weight: bold;
+        color: #fff;
+        font-size: large;
+      }
+      .text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        font-weight: normal;
+        font-size: 20px;
+        color: lightgray;
+        padding: 20px;
+      }
+      .images {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+      }
+      .logo {
+        padding-left: 20px;
+        display: flex;
+        width: auto;
+      }
+      .logo > p {
+        width: 125px;
+        color: lightgoldenrodyellow;
+        padding-left: 10px;
+        font-size: 25px;
+      }
+      .clock {
+        width: 125px;
+        display: flex;
+        color: lightgoldenrodyellow;
+        font-size: 20px;
+      }
+      .line {
+        border-top: 1px solid lightgoldenrodyellow;
+        height: 10px;
+        margin-bottom: 10px;
+      }
+      .bottom-section {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+      }
+      .avatar {
+        height: 50px;
+        display: flex;
+      }
+      .avatar > img {
+        height: 100%;
+        border:1px solid lightgoldenrodyellow;
+        border-radius: 50%;
+      }
+      .text-writing {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: bold;
+        color: lightgray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="img-container">
+        <img src="./images/image-equilibrium.jpg" alt="NFT" />
+        <div class="text-container">
+          <h3>Equilibrium #3429</h3>
+          <div class="text">
+            Our Equilibrium collection promotes balance and calm. 
+          </div>
+          <div class="images">
+            <div class="logo">
+              <img src="./images/icon-ethereum.svg" alt="" />
+              <p>0.041 ETH</p>
+            </div>
+            <div class="clock">
+              <img src="./images/icon-clock.svg" alt="" />
+              <p>3 days left</p>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="bottom-section">
+            <div class="avatar"><img src="./images/image-avatar.png" alt=""></div>
+            <div class="text-writing">Creation of
+              Francisco Raigoza</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Francisco Raigoza</a>.
+    </div> -->
+  </body>
+</html>
